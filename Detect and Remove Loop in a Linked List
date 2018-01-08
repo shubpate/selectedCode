@@ -3,7 +3,7 @@
 //Detect and Remove Loop in a Linked List -
 
 
-Detection - 
+//Detection - 
 
 #include<bits/stdc++.h>
 Using namespace std;
