@@ -1,5 +1,5 @@
 //Sumit
-
+// Kadane's algorithm for finding sum of maximum contiguous array 
 
 import java.io.*;
 import java.util.*;
