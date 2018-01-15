@@ -1,0 +1,41 @@
+//Shubham 
+//Count total set bits in all numbers from 1 to n
+/*If we observe bits from rightmost side at distance i than bits get inverted after 2^i position in vertical sequence.*/
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int count_ones(int n )
+{
+	int i;
+	int count=0;
+	
+	while((1<<i)<=n)
+	{
+		bool k=0;
+		
+		int change= 1<<i;
+		
+		for(int j=0;j<=n;j++)
+		{
+			count += k;
+			
+			if(change==1)
+			 {
+			 	k= !k;
+			 	change = 1<<i;
+			 }
+			 else 
+			 change--;
+		}
+		i++;
+	}
+	return count;
+}
+
+int main() {
+	int n;
+	cin>>n;
+	cout<<count_ones(n);
+	return 0;
+}
