@@ -1,13 +1,9 @@
-# pringles
-Cheat Code
+This is just a repository to make a collection of code, done from different sites. 
+Will try to follow as per the syntax below -
 
-A join repositiory to add codes followed by individuals for enhancing coding skills.
+// NAME
+// Problem statement
+// Source of problem statement
 
-Please use following format to comment at the top -
-
-//NAME
-//PROBLEM STATEMENT
-/*Details in relation with the problem stated, if needed */
-
-Code below
+**CODE HERE**
 
